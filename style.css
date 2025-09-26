@@ -1,11 +1,10 @@
-/* ========== GLOBAL RESET ========== */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ========== UNIVERSAL BODY ========== */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -15,7 +14,7 @@ body {
   text-align: center;
 }
 
-/* ========== HOME PAGE STYLES (background with cards/links) ========== */
+
 body.home {
   background: url('health-bg.jpg') no-repeat center center fixed;
   background-size: cover;
@@ -83,7 +82,7 @@ a:hover {
   font-weight: bold;
 }
 
-/* ========== ADD RECORD FORM PAGE STYLES ========== */
+
 .one {
   max-width: 600px;
   margin: 40px auto;
@@ -139,7 +138,6 @@ a:hover {
   background: #21867a;
 }
 
-/* ========== DASHBOARD PAGE STYLES ========== */
 aside {
   width: 220px;
   background-color: #ecf0f1;
@@ -229,6 +227,7 @@ footer {
   padding: 10px;
   margin-left: 220px;
 }
+
 
 
 
