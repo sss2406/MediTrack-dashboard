@@ -24,15 +24,15 @@ body {
 
 .one {
   .one {
-    max-width: 800px;
+    max-width: 600px;
     margin: 40px auto;
-    padding: 40px;
-    border-radius: 15px;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     background-color: #ccc;
     box-sizing: border-box;
-    font-size: 18px;
-    line-height: 1.6em;
+    font-size: 16px;
+    line-height: 1.5em;
     color: #111;
 }
 }
@@ -138,5 +138,6 @@ a:hover {
 .form-container button:hover {
   background: #21867a;
 }
+
 
 
