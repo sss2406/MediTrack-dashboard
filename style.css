@@ -23,8 +23,18 @@ body {
 
 
 .one {
-  max-width: 800px;
-  padding: 20px;
+  .one {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    background-color: #ccc;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 1.6em;
+    color: #111;
+}
 }
 h1 {
   font-size: 48px;
@@ -128,4 +138,5 @@ a:hover {
 .form-container button:hover {
   background: #21867a;
 }
+
 
