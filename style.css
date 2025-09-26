@@ -1,32 +1,57 @@
-body{
-            background-image:url('health-bg.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            height: 100vh;
-            margin:0;
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            flex-direction:column;
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            color:white;
-            
-        }
-        .one{
-            text-align:center;
-        }
-        a{
-            text-decoration:none;
-            color:yellow;
-            font-weight:bold;
-            font-size:20px;
-            margin:10px;
-         
-        }
-        a:hover{
-            opacity:0.8;
-        }
-        
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('health-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+
+.one {
+  max-width: 800px;
+  padding: 20px;
+}
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.6);
+  color: yellow;
+  padding: 12px 24px;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
 
