@@ -232,6 +232,62 @@ footer {
   margin-left: 220px;
 }
 
+@media (max-width: 768px) {
+  aside {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  aside h2 {
+    font-size: 18px;
+  }
+
+  aside ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  aside li {
+    flex: 1;
+    margin: 5px;
+  }
+
+  header {
+    margin-left: 0;
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 28px;
+  }
+
+  main {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  main h1 {
+    font-size: 20px;
+  }
+
+  .stats {
+    flex-direction: column;
+  }
+
+  .box {
+    margin-bottom: 15px;
+  }
+
+  footer {
+    margin-left: 0;
+    font-size: 14px;
+  }
+}
+
 
 
 
