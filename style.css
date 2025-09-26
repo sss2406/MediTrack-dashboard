@@ -85,4 +85,47 @@ a:hover {
 }
 
 
+.form-container {
+  max-width: 800px;         
+  margin: 40px auto;        
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.9);  
+  border-radius: 16px;      
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);  
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.form-container button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background: #2a9d8f;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-container button:hover {
+  background: #21867a;
+}
 
