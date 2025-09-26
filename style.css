@@ -188,7 +188,7 @@ header {
 
 header h1 {
   margin: 0;
-  font-size: 250px;
+  font-size: 100px;
   font-weight:bold;
 }
 
@@ -231,6 +231,7 @@ footer {
   padding: 10px;
   margin-left: 220px;
 }
+
 
 
 
