@@ -1,45 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        body{
-            background-image:url('health-bg.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            height: 100vh;
-        }
-        .one{
-            position:fixed;
-            margin-top: 1000px;
-            margin-left: 1300px;
-            font-size:100px;
-         
-        }
-        
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediTrack</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background: url('health-bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      height: 100vh;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+    a {
+      text-decoration: none;
+      color: yellow;
+      margin: 10px;
+      font-size: 20px;
+    }
+  </style>
 </head>
 <body>
-    <div class="one">
-    <h1><strong>MediTrack</strong>-Health Record and Vitals Dashboard</h1>
-    <p>A responsive web Dashboard to manage Patient health Data</p>
-    <div style="text-align: center; margin-top: 20px;">
-        <a href="add-record.html">Add Patient Record</a>
-        <a href="dashboard.html">View Dashboard</a>
-    <style>
-        a:hover {
-            opacity: 0.8;
-        }
-    </style>
-    </div>
-    </div>
-    
+  <div class="one">
+    <h1>MediTrack Dashboard</h1>
+    <p>A responsive web dashboard to manage records</p>
+    <a href="add-record.html">Add Record</a>
+    <a href="dashboard.html">Dashboard</a>
+  </div>
 </body>
 </html>
+
 
 
